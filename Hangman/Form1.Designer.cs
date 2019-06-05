@@ -409,7 +409,7 @@
             this.metroTabControl1.Location = new System.Drawing.Point(27, 74);
             this.metroTabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 1;
+            this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(686, 481);
             this.metroTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.metroTabControl1.TabIndex = 3;
@@ -439,14 +439,12 @@
             // mtgglSounds
             // 
             this.mtgglSounds.AutoSize = true;
-            this.mtgglSounds.Checked = true;
-            this.mtgglSounds.CheckState = System.Windows.Forms.CheckState.Checked;
             this.mtgglSounds.Location = new System.Drawing.Point(408, 51);
             this.mtgglSounds.Margin = new System.Windows.Forms.Padding(4);
             this.mtgglSounds.Name = "mtgglSounds";
             this.mtgglSounds.Size = new System.Drawing.Size(80, 21);
             this.mtgglSounds.TabIndex = 10;
-            this.mtgglSounds.Text = "On";
+            this.mtgglSounds.Text = "Off";
             this.mtgglSounds.UseVisualStyleBackColor = true;
             // 
             // mlblSounds

@@ -303,7 +303,7 @@ namespace Hangman
             SQLiteDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                MessageBox.Show("ID: " + reader["ID"] + " Slovo: " + reader["Word"] + " Typ: " + reader["Type"]);
+                //MessageBox.Show("ID: " + reader["ID"] + " Slovo: " + reader["Word"] + " Typ: " + reader["Type"]);
                 mtbWord.Text = reader["Word"].ToString();
             }
         }
